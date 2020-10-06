@@ -1,0 +1,663 @@
+
+
+html
+{
+  scroll-behavior: smooth !important;
+
+}
+/*-----------------------HEADER-------------------------------------*/
+
+  @media only screen and (max-width: 800px) {
+
+    .header-img
+    {
+        display: block;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+        width : 100%;
+        padding-left: 10px;
+    }
+
+    ul{
+      
+      list-style-type: none !important;
+      font-family: century Gothic !important;
+      text-align: center;
+      float: right;
+      width: 100%;
+      text-decoration: none;
+      
+    }
+
+    #post-img
+    {
+      margin-left: 0 !important;
+      margin-top: 50px !important;
+      
+    }
+
+    #serve
+    {
+      margin-top: 10px !important;
+    }
+
+    #overall
+    {
+      font-size: 60px !important;
+    }
+    
+    #overall2
+    {
+      width: 100% !important;
+    }
+    #submo
+    {
+      margin-left: 0px !important;
+      display: none !important;
+    }
+    
+  }
+  
+/*---------------------------------- SLIDER -----------------------------------------------------*/
+
+
+  .slider-css
+  {
+    width: 100%;
+    border: 10px solid black;
+  }
+
+  
+  
+  /*-----------------------NAVBAR-----------------------------------*/
+
+
+ul{
+  list-style-type: none !important;
+  font-family: century Gothic !important;
+  margin-left: 150px;
+  padding: 5px;
+  color:#9E9D24 ;
+  box-shadow: 5px silver !important;
+  
+}
+ul li {
+  display: inline-block !important;
+}
+
+ul li a {
+  text-decoration: none !important;
+  padding: 5px 20px !important;
+  border: 1px solid transparent !important;
+  transition: 0.6s ease !important;
+  color:#9E9D24 !important ;
+}
+
+ul li a:hover
+{
+  background-color: #fff !important;
+  color:#9E9D24   !important;
+  font-weight: bold;
+}
+
+#active
+{
+  background-color: #fff !important;
+  color:#9E9D24  !important;
+  font-weight: bolder;
+}
+
+/* -----------------------------------para---------------------------------- */
+
+.mybtn
+{
+        padding-top: 10px; padding-bottom: 10px; 
+        padding-left: 20px; padding-right: 20px;
+        background-color: white; color:#9E9D24;
+        text-decoration: none; border-radius: 5px; 
+        font-family: century Gothic; opacity: 0.7;
+        font-size: 20px;
+        border: 2px solid #F9FBE7;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-bottom: 80px;
+
+}
+
+.mybtn,.who:hover
+{
+  background-color: white;
+  color: gray;
+  opacity: 1;
+}
+
+/*--------------------- Content ----------------------------------*/
+
+
+/* .content
+{
+  width: 90% !important;
+  box-sizing: border-box !important;
+  padding-bottom: 30px !important;
+} */
+
+
+/* Create three equal columns that floats next to each other */
+
+#column {
+  /* float: left;
+  width: 33.33%;
+  
+  padding-left: 50px !important;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+  padding-right: 20px !important; */
+
+ font-size: medium;
+ justify-content: space-between;
+ box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table !important;
+  clear: both  !important;
+} */
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width:600px) {
+  #column {
+    width: 100%;
+    padding-top: 60px !important;
+    padding-right: 30px !important;
+     }
+
+     hr                                  /* DARKCYAN LINE CSS */
+     {
+       width:100% !important;
+       margin-left: 0 auto !important;
+       margin-right: 0 auto !important;
+       text-align: center;
+       /* padding-top: 3px !important; */
+     }
+
+     .fulll                              /*FEATURES FULL LINE CSS */
+     {
+       width: 100% !important;
+     }
+
+     .fotabove
+     {
+       text-align: center !important;
+     }
+}
+
+.phulro                                  /* CSS FOR ICONS (LAPTOP, CLOUD ETC. ) */
+{
+  background-color: #FAFAFA  !important  ;
+  font-size: 100px !important;
+  text-align: center;
+  color: #9E9D24  !important;
+  border-radius: 5px;
+  border: 2px solid #281139;
+  transition-duration: 0.6s;
+ width: 100%;
+ 
+  
+}
+.phulro:hover
+{
+opacity: 0.7 !important;
+color: #281139 !important;
+}
+
+.hawa                                    /* HEADINGS CSS (WEB DES, HOSTING ETC. ) */
+{
+  padding-top: 40px !important;
+  font-weight: bolder !important;
+  font-family: 'Josefin Slab', serif;
+  /* color : #009688  !important; */
+  color:  #281139;
+}
+
+.feature                                   /* FEATURE HEADING CSS */
+{
+  margin-top: 50px;
+  font-family: Tahoma, sans-serif;
+  font-weight: bolder !important;
+  color: #281139;
+  font-size: 35px !important;
+  word-spacing: 10px !important;
+  justify-content: center !important;
+  text-align: center !important;
+  font-weight: bolder !important;
+}
+
+
+/*--------------------------------Grid-----------------------------------------*/
+
+/* .grid   /* GET STARTED WALA BOX */
+/* {
+  padding-bottom: 2px;
+  padding-right: 2px !important;
+  padding-left: 2px !important;  
+} */ 
+
+
+.inner-grid
+{
+  padding-top:150px ;
+  padding-bottom: 50px !important;
+  width: 100%;
+  height: 400px;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #281139 74%);
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; */
+  justify-content: center; 
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: initial;
+  color: white;
+  font-family: 'Oleo Script', cursive;
+}
+
+
+.btno                     /* GET STARTED'S BUTTON'S TOP */
+{
+  padding-top: 40px;
+  font-family: monospace !important;
+  
+}
+
+.btn-primary                    /* GET STARTED'S BUTTON*/
+{
+  padding-top : 15px!important;
+  padding-bottom : 15px!important;
+  padding-right : 25px!important;
+  padding-left : 25px!important;
+  font-weight: bold !important;
+  opacity: 0.7 !important;
+  background-color: white !important;
+  color:  #9E9D24  !important;
+  border: 2px solid #281139;
+  display: fixed !important;
+  margin-bottom: 90px;
+  transition-duration: 0.6s;
+}
+
+.who, .mybtn:hover
+{ 
+  background-color: black;
+  color: gray;
+  opacity: 0.9;
+  border:2px solid #9E9D24  !important;
+}
+
+.btn-primary:hover{
+  
+  background-color: black !important;
+  color: gray !important;
+  opacity: 0.9 !important;
+  border:2px solid #9E9D24  !important;
+}
+
+  
+/*--------------------- footer -------------------------------------------*/
+
+
+.fotabove                    /* FOOTER'S TOP */
+{
+  background-color: black !important;
+  color: white !important;
+  width: 100% !important;
+  /* box-sizing: border-box !important; */
+  /* padding-right : 15px!important;
+  padding-left : 15px!important; */
+  
+}
+
+hr
+{
+  background-color:  #a4508b !important;
+ 
+  
+}
+
+h5
+{
+  color : #9E9D24  !important;
+  font-weight: bold !important;
+}
+
+
+#footer                                /* FOOTER */
+{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    background-image: url(images/myfooter.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: white !important;
+    text-align: center !important;
+    justify-content: center !important;
+    background-color: black !important;
+    font-size: 20px !important;
+    font-family: 'Leckerli One', cursive;
+    border: 10px solid  gray;
+
+}
+
+.webo                                   /* WEB DESIGN BY N.GUL :)*/
+{
+  padding-top: 25px !important;
+}
+#footer:hover
+{
+  opacity: 0.9 !important;
+  
+  
+}
+
+.fa-copyright
+{
+  margin: 6px !important;
+  color: white !important;
+  font-size: 20px !important;
+}
+        
+  .fa-heart-o
+  {
+      margin: 6px !important;
+      color: red !important;
+      font-size: 20px !important;
+      font-weight: bolder !important;
+  }      
+
+  .icons                      /* WHITE ICONS USED IN FOOTER */
+  {
+    padding-top: 5px !important;
+    padding-bottom: 10px !important;
+    font-size: 40px !important;
+    
+  }
+
+  .fa-facebook-official, .fa-envelope, .fa-twitter, .fa-google-plus-official, .fa-linkedin{
+
+    padding-right: 20px !important;
+    color: gray !important;
+
+  }
+
+  /*-------------------------- finish ---------------------------------------------------*/
+
+
+/*----------------- SERVICES PAGE CSS ---------------------------------*/
+
+
+.header-service {
+  background-color:#80CBC4  !important   ;
+  text-align: center;
+  padding: 5px;
+  padding-left: 10px !important;
+    padding-right: 10px !important;
+  box-sizing: border-box !important;
+  font-family: 'Cinzel', serif; 
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+
+  @media only screen and (max-width: 800px) {
+
+    .img-service
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width : 100%;
+    }
+  }
+
+.heading
+{
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+
+.contento                     /* for right-side div */
+{
+  box-sizing: border-box !important;
+  padding-bottom: 30px !important;
+  padding-top: 50px !important;
+  width:97% !important;
+  padding-left: 40px !important;
+  padding-right: 30px !important;
+}
+
+
+
+#section1
+{
+  flex: 60% !important;
+  box-sizing: border-box !important;
+  padding-bottom: 30px !important;
+  padding-right: 30px !important;
+  padding-left: 50px !important;
+  padding-top: 30px !important;
+  box-shadow: 2px 3px 5px grey !important;
+  }
+
+.sec-img
+{
+ flex: 40% !important;
+ background-color: #80CBC4 !important;
+ color: #9E9D24 !important ;
+ font-family: 'Overpass Mono', monospace;
+ float: right !important;
+ box-shadow: 2px 3px 5px grey !important;
+ text-align: center !important;
+ padding-top: 50px !important;
+}
+
+.contento :hover
+{
+  background-color: #E0F2F1  !important;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+.content-wa                         /* for left-side div */
+{
+  box-sizing: border-box !important;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  width:97% !important;
+  padding-left: 40px !important;
+  padding-right: 30px !important;
+}
+
+
+
+.sec-a
+{
+ flex: 40% !important;
+ background-color: #80CBC4 !important;
+ color: #9E9D24 !important ;
+ font-family: 'Overpass Mono', monospace;
+ float: left !important;
+ box-shadow: 2px 3px 5px grey !important;
+ text-align: center !important;
+ padding-top: 50px !important;
+
+}
+
+#section-a
+{
+  flex: 60% !important;
+  box-sizing: border-box !important;
+  padding-bottom: 30px !important;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  padding-top: 30px !important;
+  box-shadow: 2px 3px 5px grey !important;
+}
+
+
+.content-wa :hover
+{
+  background-color: #E0F2F1  !important;
+}
+
+
+.ui-des
+{
+  background-image: url(images/ui\ design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  border: 5px solid midnightblue;
+}
+
+
+.wireframe
+{
+  background-image: url(images/wireframe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  border: 5px solid midnightblue;
+}
+
+.app-des
+{
+  background-image: url(images/app-dev.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  border: 5px solid midnightblue;
+}
+/*--------------------------------- about css-----------------------------------------------------*/
+
+.header-about {
+  background-color: black !important   ;
+  text-align: center;
+  padding: 5px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  box-sizing: border-box !important;
+  font-family: 'Cinzel', serif; 
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .img-about
+  {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width : 100%;
+  }
+
+  #pics
+  {
+    margin-top: 20px !important    ;
+  }
+
+  
+.heading
+{
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  width: 100% !important;
+  display: block !important;
+}
+
+#mission
+{
+  margin-top: 0px !important;
+}
+
+#mission1
+{
+  margin-left: 0px !important;
+}
+}
+
+
+#pics
+{
+  margin-top: 80px !important;
+  margin-bottom: 50px !important;
+  
+}
+
+.who
+{
+  padding-top: 10px; padding-bottom: 10px; 
+  padding-left: 30px; padding-right: 30px;
+  background-color: white; color:#9E9D24;
+  text-decoration: none; border-radius: 5px; 
+  font-family: century Gothic; opacity: 0.7;
+  font-size: 20px;
+  border: 2px solid #F9FBE7;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+
+.agenda
+{
+  background-image: url(images/agenda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* ----------------------contact css------------------------------------- */
+
+.heading
+{
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  display: block !important;
+}
+
+#design1
+{
+  background-color: #B71C1C;
+  color: white;
+}
+#design2
+{
+  background-color: #880E4F  ;
+  color: white;
+}
+#design3
+{
+  background-color: #01579B  ;
+  color: white;
+}
+#design4
+{
+  background-color:#006064  ;
+  color: white;
+}
